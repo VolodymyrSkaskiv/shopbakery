@@ -1,3 +1,122 @@
+:root {
+  --color-accent: #819b57;
+  --color-accent-dark: #465929;
+  --color-brown: #a18268;
+
+  --color-primary: #31261a;
+  --color-primary-white: #fafae4;
+}
 body {
   font-family: "Poppins", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: blueviolet;
+  color: var(--color-primary);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--color-primary-white);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.nav-btn {
+  border-radius: 8px;
+  border: 2px solid var(--color-accent);
+  background-color: var(--color-accent);
+  color: var(--color-primary-white);
+  padding: 16px 32px;
+  font-size: 18px;
+}
+
+.hero-title {
+  font-size: 128px;
+  font-weight: 900;
+  color: var(--color-primary-white);
+}
+
+.hero-title span {
+  color: var(--color-accent);
+}
+
+.hero-advantages {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--color-primary-white);
+}
+
+.title-section {
+  font-size: 64px;
+
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+.title-section span {
+  color: var(--color-accent-dark);
+}
+
+.text-section {
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+.text-section span {
+  color: var(--color-accent);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.shef-title {
+  font-size: 40px;
+}
+
+.card-article {
+  color: var(--color-primary-white);
+}
+.card-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-desc {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.imp-map {
+  width: 603px;
+  height: 595px;
+}
+
+/* -------------------footer------------------------ */
+address {
+  font-style: normal;
+}
+
+.address-link {
+  text-decoration: none;
+  color: var(--color-primary-white);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.copywriter {
+  color: var(--color-brown);
+  font-size: 14px;
+  font-weight: 400;
 }
